@@ -1,0 +1,1 @@
+git add . && git ci -m 'lal' && git push origin master && ssh user@cpa.6feeds.ru "cd /srv/zvonar && git pull origin master && php artisan migrate"
